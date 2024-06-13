@@ -1,0 +1,119 @@
+/* 全体共通 */
+body{
+    background-color:#000000;
+}
+header{
+    color: #ffffff;
+}
+
+/* メインビジュアル */
+.main_visual
+{
+    background-image: url('../Image/ホラーゲーム2.png');
+    background-size: cover;
+    background-position: center center;
+}
+
+.main_visual .container
+{
+    width: 90%;
+    margin: auto;
+    max-width: 1280px;
+    height: 1000px;
+}
+/* セクション１ */
+.section1{
+    color: #ffffff;
+    padding: 80px 0;
+}
+
+.section1 .container {
+    background-image: url(../Image/ホラーゲーム4.png);
+    width: 90%;
+    margin: auto;
+    max-width: 1280px;
+}
+
+.section1 .row{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.section1 .col{
+    width: 48;
+    font-size: 20px;
+    line-height: 3;
+    
+}
+
+.section1 h3{
+    color: red;
+}
+/*タブ切り替え全体のスタイル*/
+.Profile .tabs {
+    color: #ffffff;
+    margin: top 1px;
+    padding-bottom: 200px;
+    background-color: #1e1e1e;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 1200px;
+    margin: 0 auto;
+}
+.section2 {
+    color: #ffffff;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/*タブのスタイル*/
+.Profile .tab_item {
+    width: calc(100%/4);
+    height: 50px;
+    background-color: #000000;
+    line-height: 50px;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    display: block;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+
+.Profile .tab_item:hover {
+    opacity: 0.75;
+}
+
+/*ラジオボタンを全て消す*/
+input[name="tab_item"] {
+    display: none;
+}
+
+/*タブ切り替えの中身のスタイル*/
+.tab_content {
+    display: none;
+    padding: 40px 40px 0;
+    clear: both;
+    overflow: hidden;
+    font-size: 25px;
+    line-height: 2.5;
+}
+
+/*選択されているタブのコンテンツのみを表示*/
+#tab_1:checked ~ #tab_1_content,
+#tab_2:checked ~ #tab_2_content,
+#tab_3:checked ~ #tab_3_content,
+#tab_4:checked ~ #tab_4_content {
+    display: block;
+}
+
+/*選択されているタブのスタイルを変える*/
+.tabs input:checked + .tab_item {
+    background-color: red;
+    color: #000000;
+}
