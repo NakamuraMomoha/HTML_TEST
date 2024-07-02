@@ -4,6 +4,7 @@ body{
 }
 header{
     color: #ffffff;
+    font-size: 20px;
 }
 
 /* メインビジュアル */
@@ -44,7 +45,6 @@ header{
     width: 48;
     font-size: 20px;
     line-height: 3;
-    
 }
 
 .section1 h3{
@@ -116,4 +116,142 @@ input[name="tab_item"] {
 .tabs input:checked + .tab_item {
     background-color: red;
     color: #000000;
+}
+
+.ProductInformation
+{
+    color: #ffffff;
+    padding: 80px 0;
+}
+
+.ProductInformation .hr1 {
+    border-top: 3px solid #ffffff;
+    width:50%;
+  }
+
+
+/*都市伝説*/
+
+/*都市伝説１*/
+.main_Story1 .container
+{
+    width: 90%;
+    margin: auto;
+    max-width: 1280px;
+    height: 1000px;
+}
+/* セクション１ */
+.main_Story1{
+    color: #ffffff;
+    padding: 80px 0;
+}
+
+.main_Story1 .container {
+    width: 90%;
+    margin: auto;
+    max-width: 1280px;
+}
+
+.main_Story1 .row{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.main_Story1 .col{
+    width: 48;
+    font-size: 20px;
+    line-height: 3;
+}
+
+/*都市伝説2*/
+.main_Story2 .container
+{
+    width: 90%;
+    margin: auto;
+    max-width: 1280px;
+    height: 1000px;
+}
+/* セクション2 */
+.main_Story2{
+    color: #ffffff;
+    padding: 80px 0;
+}
+
+.main_Story2 .container {
+    width: 90%;
+    margin: auto;
+    max-width: 1280px;
+}
+
+.main_Story2 .row{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.main_Story2 .col{
+    width: 48;
+    font-size: 20px;
+    line-height: 3;
+}
+
+/*都市伝説3*/
+.main_Story3 .container
+{
+    width: 90%;
+    margin: auto;
+    max-width: 1280px;
+    height: 1000px;
+}
+/* セクション3 */
+.main_Story3{
+    color: #ffffff;
+    padding: 80px 0;
+}
+
+.main_Story3 .container {
+    width: 90%;
+    margin: auto;
+    max-width: 1280px;
+}
+
+.main_Story3 .row{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.main_Story3 .col{
+    width: 48;
+    font-size: 20px;
+    line-height: 3;
+}
+
+/*都市伝説4*/
+.main_Story4 .container
+{
+    width: 90%;
+    margin: auto;
+    max-width: 1280px;
+    height: 1000px;
+}
+/* セクション１ */
+.main_Story4{
+    color: #ffffff;
+    padding: 80px 0;
+}
+
+.main_Story4 .container {
+    width: 90%;
+    margin: auto;
+    max-width: 1280px;
+}
+
+.main_Story4 .row{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.main_Story4 .col{
+    width: 48;
+    font-size: 20px;
+    line-height: 3;
 }
