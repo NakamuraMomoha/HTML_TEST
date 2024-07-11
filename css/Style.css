@@ -10,9 +10,11 @@ header{
 /* メインビジュアル */
 .main_visual
 {
-    background-image: url('../Image/ホラーゲーム2.png');
+    color: #ffffff;
+    background-image: url('../Image/ホラーゲーム7.png');
     background-size: cover;
     background-position: center center;
+
 }
 
 .main_visual .container
@@ -21,7 +23,64 @@ header{
     margin: auto;
     max-width: 1280px;
     height: 1000px;
+    writing-mode: vertical-rl;
 }
+
+.main_visual .container p
+{
+    font-size:  40px;
+    
+}
+/*『なにか』の文字サイズと色*/
+.main_visual .container span
+{
+        font-size:  50px;
+    color: red;
+}
+/*浮き出るアニメーション*/
+.main_visual .container .text-focus-in
+{  -webkit-animation: text-focus-in 2.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: text-focus-in 2.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+
+}
+/**
+ * ----------------------------------------
+ * animation text-focus-in
+ * ----------------------------------------
+ */
+ @-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+
+  .main_visual .container  svg text {
+          font-family: 'Oswald', sans-serif;
+          font-weight: 700;
+          text-transform: uppercase;
+          stroke-width: 3px;
+          stroke-linejoin: round;
+  }
+
 /* セクション１ */
 .section1{
     color: #ffffff;
